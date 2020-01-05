@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Home map</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<meta name="description" content="" />
+	<!-- <link rel="icon" href="favicon.png" /> -->
+	<link rel="stylesheet" href="css/normalize.css" />
+	<link rel="stylesheet" href="css/layout.css" />
+	<link rel="stylesheet" href="css/style.css" />
+
+</head>
+
+<body>
+	<div class="ba-container">
+		<h1>Home map</h1>
+		<form action="#" class="ba-form">
+			<input class="ba-start" type="text" required placeholder="Start">
+			<input class="ba-end" type="text" required placeholder="End">
+			<button class="ba-button" type="submit"><img src="img/route.svg" alt="route"></button>
+		</form>
+		<div id="map"></div>
+
+
+	</div>
+	<!-- /.ba-container -->
+
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA_BvGQbN1ahxfHjgxzrwMh6zzJs_NQzHU&callback=initBaMap"></script>
+	<script src="js/app.js"></script>
+</body>
+
+</html>
